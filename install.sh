@@ -11,7 +11,7 @@ pip install Django
 sleep 2
 cd /usr/share/
 git clone https://github.com/cldrn/rainmap-lite
-cd /rainmap-lite/rainmap-lite/
+cd /usr/share/rainmap-lite/rainmap-lite/
 sleep 2
 sed -i "s/8000/8080/g" "nmaper-cronjob.py"
 echo What is your SMTP user name?(exe:balala@gmail.com)

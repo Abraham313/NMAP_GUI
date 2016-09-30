@@ -34,6 +34,8 @@ python manage.py createsuperuser
 sleep 2
 echo Done.Install is ok
 echo run nmap_Gui to start service
+cd 
+
 
 
 

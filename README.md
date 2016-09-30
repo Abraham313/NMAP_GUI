@@ -26,3 +26,6 @@ This script will install nmap_gui to scan network easy
     
 ## Install and Use:
 
+  chmod +x install.sh
+  ./install.sh
+

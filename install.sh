@@ -35,7 +35,7 @@ sleep 2
 clear
 echo Done.Install is ok
 echo
-echo -e "[*] Run \e[1;32nmap_Gui\e[0m to start service"
+echo -e "[*] Run \e[1;32mnmap_Gui\e[0m To start Service"
 cd 
 
 

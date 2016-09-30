@@ -1,0 +1,13 @@
+#!/bin/bash
+ip=$(ip route show | awk '(NR == 2) {print $9}')
+port=8080
+clear
+echo '[*] Please wait as RainMap services are started.'
+echo '[*] You might need to refresh your browser once it opens.'
+echo "[*] UI URL: http://127.0.0.1:$port/console"
+echo -e "[*] Run \e[1;32mnmap_Gui_scan\e[0m To Mail Result"
+gnome-terminal -x sh -c 'cd /usr/share/rainmap-lite/rainmap-lite && ./manage.py runserver 0.0.0.0:8080; exec bash' 
+sleep 3
+xdg-open http://$ip:$port/console 
+
+

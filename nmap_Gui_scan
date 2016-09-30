@@ -1,0 +1,6 @@
+#!/bin/bash
+cd /usr/share/rainmap-lite/rainmap-lite && python nmaper-cronjob.py
+ 
+
+
+

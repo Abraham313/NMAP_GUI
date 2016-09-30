@@ -14,7 +14,7 @@ git clone https://github.com/cldrn/rainmap-lite
 cd /usr/share/rainmap-lite/rainmap-lite/
 sleep 2
 sed -i "s/8000/8080/g" "nmaper-cronjob.py"
-echo What is your SMTP user name?(exe:balala@gmail.com)
+echo What is your SMTP user name?i.e:balala@gmail.com
 read user
 sed -i "s/youremail@gmail.com/$user/g" "nmaper-cronjob.py"
 sleep 2
@@ -22,7 +22,7 @@ echo What is your SMTP password?
 read pass
 sed -i "s/yourpassword/$pass/g" "nmaper-cronjob.py"
 sleep 2
-echo What is your SMTP address?(i.e:smtp.gmail.com)
+echo What is your SMTP address?i.e:smtp.gmail.com
 read smtp
 sed -i "s/smtp.gmail.com/$smtp/g" "nmaper-cronjob.py"
 sleep 2

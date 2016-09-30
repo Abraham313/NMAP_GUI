@@ -32,8 +32,10 @@ python manage.py loaddata nmapprofiles
 sleep 2
 python manage.py createsuperuser
 sleep 2
+clear
 echo Done.Install is ok
-echo run nmap_Gui to start service
+echo
+echo -e "[*] Run \e[1;32nmap_Gui\e[0m to start service"
 cd 
 
 

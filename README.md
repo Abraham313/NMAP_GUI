@@ -11,7 +11,7 @@ This script will install nmap_gui to scan network easy
     It's allows you to send the scan results to your email in different formats
 
 ## Rainmap website:
-    https://nmap.org/rainmap/
+https://nmap.org/rainmap/
  
 ## Features:
  

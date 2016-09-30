@@ -25,7 +25,12 @@ https://nmap.org/rainmap/
     Share results with your team.
     
 ## Install and Use:
+
+    git clone https://github.com/ziflar/NMAP_GUI.git 
+
+    cd NMAP_GUI
+
     chmod +x install.sh
-  
+
     ./install.sh
 

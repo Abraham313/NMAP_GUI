@@ -36,7 +36,7 @@ clear
 echo Done.Install is ok
 echo
 echo -e "[*] Run \e[1;32mnmap_Gui\e[0m To start Service"
-cd 
+cd ~
 
 
 

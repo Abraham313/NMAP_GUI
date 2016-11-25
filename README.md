@@ -2,11 +2,11 @@
 This script will install nmap_gui to scan network easy
 
 ## Description:
-    This script will facilitate the install of rainmap in you device
+    This script will facilitate the install of rainmap in your device
 
     Raimap is an Nmap scan with web interface
 
-    It's very easu to use all popular scan of network
+    It's very easy to use all popular scan of network
 
     It's allows you to send the scan results to your email in different formats
 
